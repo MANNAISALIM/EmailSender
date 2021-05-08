@@ -44,7 +44,7 @@ async function sendMail(user, callback) {
     to: user.email, // list of receivers
     subject: "You are invited! 😃👻😃👻😃👻", // Subject line
     html: `<h2>Hi there ,</h2>
-    <h4>Keep learning with our online events and here is the link to join our webinar : ${user.link}</h4>
+    <h4>Keep learning with our online events and here is the link to join our webinar : http://localhost:4200/#/home</h4>
     <h4>Thank you for joining us,</h4>
     <h3>Regards.</h3>`
   };
